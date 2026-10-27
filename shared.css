@@ -1,0 +1,29 @@
+/* Local subset: button styles and shared design tokens. */
+@import "./colors.css";
+@import "./semantic.css";
+
+.smmify-button {
+  --button-bg: transparent; --button-hover: var(--action-secondary-bg); --button-text: var(--text-primary);
+  background: var(--button-bg); color: var(--button-text); line-height: 24px; letter-spacing: 0;
+}
+.smmify-button[data-tone="green"] { --button-hover: var(--action-accent-subtle-bg); }
+.smmify-button:is([data-variant="default"],[data-variant="primary"])[data-tone="dark"] {
+  --button-bg: var(--action-primary-bg); --button-hover: var(--action-primary-hover-bg); --button-text: var(--action-primary-text);
+}
+.smmify-button:is([data-variant="default"],[data-variant="primary"])[data-tone="green"] {
+  --button-bg: var(--action-accent-bg); --button-hover: var(--action-accent-hover-bg);
+}
+.smmify-button[data-variant="secondary"][data-tone="dark"] { --button-bg: var(--action-secondary-bg); --button-hover: var(--action-secondary-hover-bg); }
+.smmify-button[data-variant="secondary"][data-tone="green"] { --button-bg: var(--action-accent-subtle-bg); --button-hover: var(--action-accent-hover-bg); }
+.smmify-button[data-variant="secondary"][data-tone="green"][data-size^="icon"] { --button-bg: var(--action-accent-icon-bg); }
+.smmify-button[data-variant="dark"] { --button-bg: var(--action-primary-bg); --button-hover: var(--action-primary-hover-bg); --button-text: var(--action-primary-text); }
+.smmify-button:is([data-variant="danger"],[data-variant="destructive"]) { --button-bg: var(--status-warning-bg); --button-hover: var(--status-warning-hover-bg); --button-text: var(--status-warning-text); }
+.smmify-button[data-variant="outline"] { --button-bg: var(--surface); --button-text: var(--text-primary); --button-hover: var(--interaction-hover-bg); }
+.smmify-button[data-variant="destructive"] { --button-bg: var(--status-danger-bg); --button-hover: var(--status-danger-hover-bg); --button-text: var(--status-danger-text); }
+.smmify-button[data-variant="link"] { --button-text: var(--text-primary); --button-hover: transparent; }
+.smmify-button:is(:hover,[data-preview-state="hover"]):not(:disabled) { background: var(--button-hover); }
+.smmify-button > svg { width: 24px; height: 24px; }
+.button-asset { flex: none; display: inline-flex; align-items: center; justify-content: center; overflow: hidden; }
+.button-asset img { flex: none; max-width: none; }
+
+.smmify-button[data-variant="outline"] { border: 1px solid var(--border-default); }

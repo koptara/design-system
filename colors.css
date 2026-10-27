@@ -1,0 +1,40 @@
+/* Generated from src/lib/colors.json — Figma 8:2. */
+:root {
+  --smmify-red: #d60014;
+  --smmify-red-30: rgba(214, 0, 20, 0.3);
+  --smmify-red-15: rgba(214, 0, 20, 0.15);
+  --smmify-red-10: rgba(214, 0, 20, 0.1);
+  --smmify-blue: #1119ce;
+  --smmify-blue-30: rgba(17, 25, 206, 0.3);
+  --smmify-blue-15: rgba(17, 25, 206, 0.15);
+  --smmify-blue-10: rgba(17, 25, 206, 0.1);
+  --smmify-spring: #008942;
+  --smmify-spring-30: rgba(0, 137, 66, 0.3);
+  --smmify-spring-15: rgba(0, 137, 66, 0.15);
+  --smmify-spring-10: rgba(0, 137, 66, 0.1);
+  --smmify-lime: #e4f322;
+  --smmify-lime-70: rgba(206, 220, 27, 0.7);
+  --smmify-lime-50: rgba(206, 220, 27, 0.5);
+  --smmify-lime-30: rgba(206, 220, 27, 0.3);
+  --smmify-lime-hover: #cedc1b;
+  --smmify-orange: #ff6524;
+  --smmify-orange-30: rgba(255, 101, 36, 0.3);
+  --smmify-orange-15: rgba(255, 101, 36, 0.15);
+  --smmify-orange-10: rgba(255, 101, 36, 0.1);
+  --smmify-dark: #121212;
+  --smmify-shadow: #6d6d6d;
+  --smmify-fog: #a0a0a0;
+  --smmify-cloud: #dcdcdc;
+  --smmify-bg: #ededed;
+  --smmify-white: #ffffff;
+  --smmify-dark-hover: #3C3C3C;
+  --smmify-dark-30: rgba(18, 18, 18, 0.3);
+  --smmify-dark-15: rgba(18, 18, 18, 0.15);
+  --smmify-dark-10: rgba(18, 18, 18, 0.1);
+  /* Supplemental primitives used by the servicing UI. */
+  --smmify-warm: #f2f2ef;
+  --smmify-spring-strong: #00622e;
+  --smmify-orange-strong: #903000;
+  --smmify-dark-40: rgba(18, 18, 18, 0.4);
+  --smmify-white-92: rgba(255, 255, 255, 0.92);
+}
